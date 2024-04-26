@@ -1,0 +1,52 @@
+#homepage{
+    display: flex;
+    gap: 20%;
+    border: solid 7px;
+    border-color: purple;
+    
+}
+
+#akira{
+    text-align: center; 
+    margin-top: 10%;
+    font-size: 95px;
+    /* margin-left: 10%; */
+    color: white;
+ }
+ #ment{
+    text-align: center; 
+    font-size: 95px;
+    margin-left: 30%;
+    color: white;
+ }
+ #program{
+    text-align: center; 
+    font-size: 95px;
+    margin-left: 50%;
+    color: white;
+ }
+ img{
+    width: 700px;
+    height: 700px;
+    margin-top: 20%;
+    border-radius: 50%;
+ }
+#joinnow{
+    border-radius: 60px;
+    color:purple;
+    background-color:white;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+P{
+    font-size: 24px;
+    color: white;
+}
+body{
+    background-color: purple;
+  
+}

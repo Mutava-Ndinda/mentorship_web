@@ -1,0 +1,140 @@
+#goals{
+    display: flex;
+    gap: 15%;
+}
+/* #shorttermgoals{
+    border: solid 3px;
+    border-color:purple;
+    padding: 2%;
+    width: 90%;
+    height: 500px;
+    margin-left: 4%;
+}
+#longtermgoals{
+    border: solid 3px;
+    border-color: purple;
+    padding: 2%;
+    width: 90%;
+    height: 500px;
+} */
+#nav{
+    display: flex;  
+    border: solid 1px;
+    color: white;
+    background-color: purple;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#navbar{
+    display: flex;
+    gap: 90%;
+    margin-left:100px;
+    font-size: 20px;
+    margin-top: 4%;
+    list-style: none;
+    color: white;
+}
+h1{
+    font-size: 56px;
+    text-align: center;
+}
+h2{
+    margin-left: 10%;
+}
+#freeform{
+    width: 80%;
+    height: 650px;
+    color:purple;
+    border: solid 5px;
+    margin-left: 5%;
+    font-size: 24px;
+}
+img{
+    width: 100px;
+    height: 100%;
+    margin-top: -1%;
+}
+
+@media screen and (min-width:300px)and (max-width:700px){
+    #goals{
+        display: flex;
+        gap: 9%;
+    } 
+    #nav{
+        display: flex;  
+        border: solid 1px;
+        color: white;
+        background-color: purple;
+    }
+    #navbar{
+        display: flex;
+        gap: 10%;
+        margin-left:5px;
+        font-size: 11px;
+        margin-top: 4%;
+        list-style: none;
+        color: white;
+    }
+    h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    h2{
+        margin-left: 10%;
+        font-size: 22px;
+    }
+    #freeform{
+        width: 90%;
+        height: 450px;
+        color:purple;
+        border: solid 5px;
+        margin-left: 5%;
+        font-size: 24px;
+    } 
+    img{
+        width: 40px;
+    } 
+}
+
+@media screen and (min-width:0px)and (max-width:299px){
+    #goals{
+        display: flex;
+        gap: 9%;
+    } 
+    #nav{
+        display: flex;  
+        border: solid 1px;
+        
+        color: white;
+    }
+    #navbar{
+        display: flex;
+        gap: 6%;
+        margin-left:-8px;
+        font-size: 11px;
+        margin-top: 4%;
+        list-style: none;
+        color: white;
+    }
+    h1{
+        font-size: 26px;
+        text-align: center;
+    }
+    h2{
+        margin-left: 10%;
+        font-size: 18px;
+    }
+    #freeform{
+        width: 90%;
+        height: 450px;
+        color:purple;
+        border: solid 5px;
+        margin-left: 5%;
+        font-size: 24px;
+    } 
+    img{
+        width: 20px;
+    } 
+}
