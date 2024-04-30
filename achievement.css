@@ -85,8 +85,8 @@ a{
     }
     #navbar{
         display: flex;
-        gap: 5%;
-        margin-left:-10px;
+        gap: 2%;
+        margin-left:-11px;
         font-size: 8px;
         margin-top: 4%;
         list-style: none;
@@ -138,8 +138,8 @@ a{
     }
     #navbar{
         display: flex;
-        gap: 10%;
-        margin-left:-9px;
+        gap: 3%;
+        margin-left:-12px;
         font-size: 10px;
         margin-top: 4%;
         list-style: none;
@@ -191,9 +191,9 @@ a{
     }
     #navbar{
         display: flex;
-        gap: 15%;
+        gap: 10%;
         margin-left:20px;
-        font-size: 22px;
+        font-size: 16px;
         margin-top: 4%;
         list-style: none;
         color: white;
@@ -203,7 +203,7 @@ a{
         height: 650px;
         color: purple;
         border: solid 5px;
-        margin-left: 5%;
+        margin-left: 4%;
         font-size: 24px;
     }   
 }

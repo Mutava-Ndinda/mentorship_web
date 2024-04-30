@@ -70,15 +70,15 @@ img{
     }
     #navbar{
         display: flex;
-        gap: 10%;
-        margin-left:5px;
-        font-size: 11px;
+        gap: 5%;
+        margin-left:-3px;
+        font-size: 10px;
         margin-top: 4%;
         list-style: none;
         color: white;
     }
     h1{
-        font-size: 36px;
+        font-size: 26px;
         text-align: center;
     }
     h2{
@@ -137,4 +137,49 @@ img{
     img{
         width: 20px;
     } 
+}
+@media screen and (min-width:701px)and (max-width:1300px){
+    #goals{
+        display: flex;
+        gap: 15%;
+    }  
+    #nav{
+        display: flex;  
+        border: solid 1px;
+        color: white;
+        background-color: purple;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    #navbar{
+        display: flex;
+        gap: 40%;
+        margin-left:8px;
+        font-size: 15px;
+        margin-top: 4%;
+        list-style: none;
+        color: white;
+    }
+    h1{
+        font-size: 56px;
+        text-align: center;
+    }
+    h2{
+        margin-left: 10%;
+    }
+    #freeform{
+        width: 80%;
+        height: 650px;
+        color:purple;
+        border: solid 5px;
+        margin-left: 5%;
+        font-size: 24px;
+    }
+    img{
+        width: 100px;
+        height: 100%;
+        margin-top: -1%;
+    }
 }
