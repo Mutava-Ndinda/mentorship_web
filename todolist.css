@@ -48,8 +48,11 @@ a{
     width: 5%;
 } 
 #summary{
-    color: purple;
-    margin-left: 5%;
+    color:white;
+    margin-left: -7%;
+    width: 10%;
+    height: 11%;
+    margin-bottom: 90%;
 }
 
 @media screen and (min-width:300px)and (max-width:700px){
